@@ -33,16 +33,6 @@ export const Archived=()=>{
     return <Task task={{...taskData, state: "TASK_ARCHIVED"}} {...actionsData} />
 };
 
-// export default function Task( { task: {id, title, state}, onArchiveTask, onPinTask } ){
 
-//     return(
-//         <div>
-//             <input type="text" value={title} readOnly={true} />
-//         </div>
-//     );
-
-// }
-
-//export default Task;
 
 
